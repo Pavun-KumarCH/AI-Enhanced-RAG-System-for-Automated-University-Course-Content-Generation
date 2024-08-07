@@ -46,7 +46,7 @@ def get_conversational_chain():
 
                         Answer:
                         """
-    model = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.3) #gemini-1.5-flash
+    model = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.3) #gemini-1.5-flash
 
     prompt = PromptTemplate(template = prompt_template, input_variables = ["context", "question"])
     chain = load_qa_chain(model, chain_type="stuff", prompt = prompt)
@@ -74,7 +74,7 @@ def main():
     st.set_page_config(page_title="Chat With Pavun")
     # Add a banner image
     st.image("assets/langchain.jpg", use_column_width=True)
-    st.header("Chat About Intelligent Agents using Gemini💁")
+    st.header("Chat with Intelligent Agent using Gemini💁")
 
     user_question = st.text_input("Ask a Question from the PDF Files")
 
