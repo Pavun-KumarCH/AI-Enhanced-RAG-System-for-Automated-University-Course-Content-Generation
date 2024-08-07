@@ -73,7 +73,7 @@ def user_input(user_question):
 def main():
     st.set_page_config(page_title="Chat With Pavun")
     # Add a banner image
-    st.image("langchain.jpg", use_column_width=True)
+    st.image("assets/langchain.jpg", use_column_width=True)
     st.header("Chat About Intelligent Agents using Gemini💁")
 
     user_question = st.text_input("Ask a Question from the PDF Files")
