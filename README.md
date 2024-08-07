@@ -28,6 +28,12 @@ The AI Enhanced Content Generation system utilizes advanced AI models to analyze
 4. **Output**:
    - The generated summaries are presented in an easily accessible format.
    - Users can review and utilize these summaries for educational purposes, enhancing both teaching and learning experiences.
+  
+## Workflow
+
+![Workflow Diagram](path/to/your/workflow-diagram.png)
+
+
 
 ## Getting Started
 
