@@ -76,8 +76,8 @@ Implemented tasks:
 - **Process Queries**: Use the QA system to answer user questions based on the processed text.
 - **Display Responses**: Show generated responses and relevant text snippets in a user-friendly format.
 
-### Showcase
-![Project Showcase](https://github.com/Pavun-KumarCH/Langchain-Llamaindex-integration-with-Gemeni-API/blob/main/assets/showcase1.gif)
+### Project Overview Live Preview 
+![Project Showcase](https://github.com/Pavun-KumarCH/Langchain-Llamaindex-integration-with-Gemeni-API/blob/main/assets/showcase.gif)
 
 ## Future Enhancements
 
