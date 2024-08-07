@@ -11,11 +11,6 @@ The AI Enhanced Content Generation system utilizes advanced AI models to analyze
 - **Gemini API Model Pro 1.5**: The core AI model used for processing and summarizing the content. This model is adept at understanding and generating text based on the provided documents.
 - **LangChain Framework**: A powerful framework that facilitates the interaction between the AI model and the content generation processes. It enables smooth integration and efficient handling of the summarization tasks.
 
-## Workflow
-
-![Workflow Diagram]()
-
-
 ## How It Works
 
 1. **Data Input**:
