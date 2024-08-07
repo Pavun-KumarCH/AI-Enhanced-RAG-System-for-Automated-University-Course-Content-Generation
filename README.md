@@ -77,7 +77,7 @@ Implemented tasks:
 - **Display Responses**: Show generated responses and relevant text snippets in a user-friendly format.
 
 ### Showcase
-![Project Showcase](/assets/showcase1.gif)
+![Project Showcase](https://github.com/Pavun-KumarCH/Langchain-Llamaindex-integration-with-Gemeni-API/blob/main/assets/showcase1.gif)
 
 ## Future Enhancements
 
