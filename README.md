@@ -52,31 +52,32 @@ Access the application through your browser or terminal interface. Upload the co
 
 ## Documentation
 
-### Phase 1 - PDF Processing
-> Corresponding notebook: [PDF-Processing.ipynb](https://github.com/yourusername/ai-enhanced-content-generation/blob/main/notebooks/PDF-Processing.ipynb)
+### Phase 1 - Interactive PDF Processing
+> Corresponding notebook: [Interactive-PDF-Processing.ipynb](https://github.com/yourusername/ai-enhanced-content-generation/blob/main/notebooks/Interactive-PDF-Processing.ipynb)
 
 Implemented tasks:
-- Load and preprocess PDF documents.
-- Extract text and key information from the PDFs.
-- Store extracted data in a structured format.
+- **Upload PDFs**: Create an interface for users to upload multiple PDF documents.
+- **Extract Text**: Read and extract text content from the uploaded PDFs.
+- **Display Results**: Show extracted text and user queries in a user-friendly format.
 
-### Phase 2 - Summary Generation
-> Corresponding notebook: [Summary-Generation.ipynb](https://github.com/yourusername/ai-enhanced-content-generation/blob/main/notebooks/Summary-Generation.ipynb)
-
-Implemented tasks:
-- Configure and interact with Gemini API Model Pro 1.5.
-- Generate summaries based on extracted content.
-- Ensure summaries are original and free from plagiarism.
-
-### Phase 3 - Output and Review
-> Corresponding notebook: [Output-Review.ipynb](https://github.com/yourusername/ai-enhanced-content-generation/blob/main/notebooks/Output-Review.ipynb)
+### Phase 2 - Text Chunking and Vector Store Creation
+> Corresponding notebook: [Text-Chunks-Vector-Store.ipynb](https://github.com/yourusername/ai-enhanced-content-generation/blob/main/notebooks/Text-Chunks-Vector-Store.ipynb)
 
 Implemented tasks:
-- Format and present summaries.
-- Review and validate summary accuracy.
-- Provide options for users to download or view summaries.
+- **Split Text**: Break down the extracted text into manageable chunks.
+- **Create Embeddings**: Convert text chunks into vector embeddings using Google Generative AI.
+- **Build Vector Store**: Store these embeddings in a vector store for efficient similarity searches.
+
+### Phase 3 - Conversational QA System
+> Corresponding notebook: [Conversational-QA-System.ipynb](https://github.com/yourusername/ai-enhanced-content-generation/blob/main/notebooks/Conversational-QA-System.ipynb)
+
+Implemented tasks:
+- **Setup QA Chain**: Configure a question-answering chain with a conversational AI model.
+- **Process Queries**: Use the QA system to answer user questions based on the processed text.
+- **Display Responses**: Show generated responses and relevant text snippets in a user-friendly format.
 
 ## Future Enhancements
+
 - **Expand Document Support**: Integrate additional file formats and types for broader applicability.
 - **Improve Summary Quality**: Enhance summarization algorithms for more precise content generation.
 - **User Interface**: Develop a more intuitive user interface for easier interaction.
