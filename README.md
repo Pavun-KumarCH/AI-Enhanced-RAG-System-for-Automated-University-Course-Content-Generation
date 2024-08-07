@@ -53,7 +53,7 @@ Access the application through your browser or terminal interface. Upload the co
 ## Documentation
 
 ### Phase 1 - Interactive PDF Processing
-> Corresponding notebook: [Interactive-PDF-Processing.ipynb]((https://github.com/Pavun-KumarCH/Langchain-Llamaindex-integration-with-Gemeni-API/blob/main/Notebooks/Lang_Chain.ipynb))
+> Corresponding notebook: [Interactive-PDF-Processing.ipynb](https://github.com/Pavun-KumarCH/Langchain-Llamaindex-integration-with-Gemeni-API/blob/main/Notebooks/Lang_Chain.ipynb)
 
 Implemented tasks:
 - **Upload PDFs**: Create an interface for users to upload multiple PDF documents.
