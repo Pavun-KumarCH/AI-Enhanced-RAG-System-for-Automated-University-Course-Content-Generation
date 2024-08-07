@@ -53,7 +53,7 @@ Access the application through your browser or terminal interface. Upload the co
 ## Documentation
 
 ### Phase 1 - Interactive PDF Processing
-> Corresponding notebook: [Interactive-PDF-Processing.ipynb](https://github.com/yourusername/ai-enhanced-content-generation/blob/main/notebooks/Interactive-PDF-Processing.ipynb)
+> Corresponding notebook: [Interactive-PDF-Processing.ipynb]((https://github.com/Pavun-KumarCH/Langchain-Llamaindex-integration-with-Gemeni-API/blob/main/Notebooks/Lang_Chain.ipynb))
 
 Implemented tasks:
 - **Upload PDFs**: Create an interface for users to upload multiple PDF documents.
@@ -61,7 +61,7 @@ Implemented tasks:
 - **Display Results**: Show extracted text and user queries in a user-friendly format.
 
 ### Phase 2 - Text Chunking and Vector Store Creation
-> Corresponding notebook: [Text-Chunks-Vector-Store.ipynb](https://github.com/yourusername/ai-enhanced-content-generation/blob/main/notebooks/Text-Chunks-Vector-Store.ipynb)
+> Corresponding notebook: [Text-Chunks-Vector-Store.ipynb](https://github.com/Pavun-KumarCH/Langchain-Llamaindex-integration-with-Gemeni-API/blob/main/Notebooks/Lang_Chain.ipynb)
 
 Implemented tasks:
 - **Split Text**: Break down the extracted text into manageable chunks.
