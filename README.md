@@ -76,6 +76,9 @@ Implemented tasks:
 - **Process Queries**: Use the QA system to answer user questions based on the processed text.
 - **Display Responses**: Show generated responses and relevant text snippets in a user-friendly format.
 
+### Showcase
+![Project Showcase](https://github.com/yourusername/ai-enhanced-content-generation/blob/main/assets/showcase.gif)
+
 ## Future Enhancements
 
 - **Expand Document Support**: Integrate additional file formats and types for broader applicability.
