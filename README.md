@@ -69,7 +69,7 @@ Implemented tasks:
 - **Build Vector Store**: Store these embeddings in a vector store for efficient similarity searches.
 
 ### Phase 3 - Conversational QA System
-> Corresponding notebook: [Conversational-QA-System.ipynb](https://github.com/yourusername/ai-enhanced-content-generation/blob/main/notebooks/Conversational-QA-System.ipynb)
+> Corresponding notebook: [Conversational-QA-System.ipynb](https://github.com/Pavun-KumarCH/Langchain-Llamaindex-integration-with-Gemeni-API/blob/main/Notebooks/Lang_Chain.ipynb)
 
 Implemented tasks:
 - **Setup QA Chain**: Configure a question-answering chain with a conversational AI model.
