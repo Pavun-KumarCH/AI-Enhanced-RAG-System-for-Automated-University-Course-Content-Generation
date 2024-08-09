@@ -257,3 +257,125 @@ prompt_template_27 = '''Consider the information extracted from the PDF.
 
                     ART  Prompting :
                     '''
+# Few-Shot Prompting
+prompt_template_28 = """
+Provide a few examples of how to analyze and summarize the content from a PDF document. 
+Here are some examples:
+1. Example 1: Summary of a financial report PDF.
+2. Example 2: Analysis of a research paper PDF.
+
+Now, based on these examples, analyze and summarize the following PDF content.
+
+Context:
+{context}
+
+Response:
+"""
+
+# Zero-Shot Prompting
+prompt_template_29 = """
+Analyze the content from the provided PDF and generate a summary without any specific examples. 
+Use your general understanding of how to process and interpret PDF content.
+
+Context:
+{context}
+
+Response:
+"""
+
+# Chain-of-Thought Prompting
+prompt_template_30 = """
+Break down the process of summarizing this PDF document into a series of logical steps. 
+Consider the structure of the document and the key points to cover. What steps should be taken to create an effective summary?
+
+Context:
+{context}
+
+Chain of Thought:
+"""
+
+# Instruction-Based Prompting
+prompt_template_31 = """
+Follow these explicit instructions to summarize the content of the PDF. 
+1. Identify the main sections of the document.
+2. Extract key information from each section.
+3. Combine the extracted information into a coherent summary.
+
+Context:
+{context}
+
+Instructions:
+{instructions}
+
+Summary:
+"""
+
+# Persona-Based Prompting
+prompt_template_32 = """
+Respond as if you are a professional PDF analyst with expertise in summarizing complex documents. 
+Adopt their style and perspective to summarize the provided PDF content.
+
+Context:
+{context}
+
+Response:
+"""
+
+# Contextual Prompting
+prompt_template_33 = """
+Use the context provided from the PDF to generate a detailed summary. 
+Ensure that the summary reflects the key themes and information presented in the document.
+
+Context:
+{context}
+
+Summary:
+"""
+
+# Role-Playing Prompting
+prompt_template_34 = """
+Assume the role of a researcher who needs to prepare a summary of the provided PDF document. 
+Address the key findings and implications based on the role.
+
+Context:
+{context}
+
+Summary:
+"""
+
+# Comparison Prompting
+prompt_template_35 = """
+Compare the following aspects of the PDF content:
+1. The primary arguments presented.
+2. The evidence supporting these arguments.
+
+Context:
+{context}
+
+Comparison:
+"""
+
+# Multi-Turn Prompting
+prompt_template_36 = """
+Engage in multiple rounds of analysis to summarize the PDF content. 
+In each turn, refine the summary based on the feedback and additional insights from previous turns.
+
+Context:
+{context}
+
+Turn 1 Summary:
+"""
+
+# Refinement Prompting
+prompt_template_37 = """
+Refine the initial summary of the PDF document based on detailed feedback. 
+Iterate to improve the clarity and accuracy of the summary.
+
+Context:
+{context}
+
+Initial Summary:
+{initial_summary}
+
+Refined Summary:
+"""
