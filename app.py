@@ -38,13 +38,13 @@ def get_vector_store(text_chunks):
 
     
 def get_conversational_chain():
-    prompt_template = """Answer the Question as Detailed as possible from the provided context, 
-                         make sure to provide all the details, if the answer not in the provided context just say "answer is not available in the context", 
-                         don't provide the wrong answer\n\n
-                         Context : \n {context}?\n
-                         Question: \n{question}\n
-
-                        Answer:
+    prompt_template = """
+                        Break down the process of summarizing this content into a chain of logical steps.
+                        What are the intermediate steps required to generate a concise summary?\n\n
+                        Context : \n {context}?\n
+                        Question: \n{question}\n
+                    
+                        Chain of Thought:
                         """
     model = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.3) #gemini-1.5-flash
 
