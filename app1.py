@@ -13,15 +13,7 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv, find_dotenv
 
 # Import prompt templates from prompt-technique.py
-from prompt_technique import (
-    prompt_template, prompt_template_1, prompt_template_2, prompt_template_3, 
-    prompt_template_4, prompt_template_5, prompt_template_6, prompt_template_7, 
-    prompt_template_8, prompt_template_9, prompt_template_10, prompt_template_11, 
-    prompt_template_12, prompt_template_13, prompt_template_14, prompt_template_15, 
-    prompt_template_16, prompt_template_17, prompt_template_18, prompt_template_19, 
-    prompt_template_20, prompt_template_21, prompt_template_22, prompt_template_23, 
-    prompt_template_24, prompt_template_25, prompt_template_26, prompt_template_27
-)
+from prompt_technique import *
 
 load_dotenv(find_dotenv())
 
@@ -56,8 +48,19 @@ prompt_mapping = {
     "PAL (Program-Aided Language Models)": prompt_template_24,
     "Meta-Ask Self-Consistency": prompt_template_25,
     "ReAct": prompt_template_26,
-    "ART (Automatic Reasoning & Tool-Use)": prompt_template_27
+    "ART (Automatic Reasoning & Tool-Use)": prompt_template_27,
+    "Few-Shot Prompting": prompt_template_28,
+    "Zero-Shot Prompting": prompt_template_29,
+    "Chain-of-Thought Prompting": prompt_template_30,
+    "Instruction-Based Prompting": prompt_template_31,
+    "Persona-Based Prompting": prompt_template_32,
+    "Contextual Prompting": prompt_template_33,
+    "Role-Playing Prompting": prompt_template_34,
+    "Comparison Prompting": prompt_template_35,
+    "Multi-Turn Prompting": prompt_template_36,
+    "Refinement Prompting": prompt_template_37
 }
+
 
 def get_pdf_text(pdf_docs):
     text = ""
