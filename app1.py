@@ -104,7 +104,7 @@ def user_input(user_question, selected_prompt_template):
     st.write(response.get("output_text", "No output generated."))
 
 def main():
-    st.set_page_config(page_title="Chat With Pavun")
+    st.set_page_config(page_title="Chat With Agent")
     # Add a banner image
     st.image("assets/langchain.jpg", use_column_width=True)
     st.header("Chat with Intelligent Agent using Gemini💁")
