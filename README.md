@@ -33,7 +33,6 @@ The AI Enhanced Content Generation system utilizes advanced AI models to analyze
 
 ![Workflow Diagram](https://github.com/Pavun-KumarCH/Langchain-Llamaindex-integration-with-Gemeni-API/blob/main/assets/GeminiFlow.png)
 
-
 ![Workflow Diagram](https://github.com/Pavun-KumarCH/Langchain-Llamaindex-integration-with-Gemeni-API/blob/main/assets/DBBLOG-3334-image001.png)
 
 
@@ -78,7 +77,7 @@ Implemented tasks:
 
 ### Phase 3 - Conversational QA System
 > Corresponding notebook: [Conversational-QA-System.ipynb](https://github.com/Pavun-KumarCH/Langchain-Llamaindex-integration-with-Gemeni-API/blob/main/Notebooks/Lang_Chain.ipynb)
-
+f
 Implemented tasks:
 - **Setup QA Chain**: Configure a question-answering chain with a conversational AI model.
 - **Process Queries**: Use the QA system to answer user questions based on the processed text.
