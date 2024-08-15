@@ -19,7 +19,7 @@ load_dotenv(find_dotenv())
 
 genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 
-# Create a mapping of techniques to their prompt templates
+# Mapping of prompt templates
 prompt_mapping = {
     "Default": prompt_template,
     "Graph of Thought": prompt_template_1,

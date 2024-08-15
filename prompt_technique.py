@@ -284,68 +284,108 @@ prompt_template_28 = """Provide a few examples of how to analyze and summarize t
                         Based on these examples, analyze and summarize the following PDF content.
 
                         Context:\n{context}\n
+                        Question: \n{question}\n
 
                         Response:
                         """
 
 # Zero-Shot Prompting
-prompt_template_29 =  """
-                      Analyze the content from the provided PDF and generate a summary without any specific examples.
+prompt_template_29 = """
+                      Analyze the content from the provided context and generate a summary without any specific examples.
 
-                      Response:
+                      Context:\n{context}\n
+                      Question: \n{question}\n
+                      
+                      Summary:
                       """
 
+# Chain of Thought Prompting
 prompt_template_30 = """
-                      Break down the process of summarizing this PDF document into a series of logical steps. 
-                      Consider the structure of the document and the key points to cover.
+                      Break down the process of summarizing this content into a series of logical steps. 
+                      Consider the structure of the content and the key points to cover.
+
+                      Context: \n{context}\n
+                      Question: \n{question}\n
 
                       Chain of Thought:
                       """
 
+# Step-by-Step Instructions
 prompt_template_31 = """
-                      Follow these explicit instructions to summarize the content of the PDF:
-                      1. Identify the main sections of the document.
+                      Follow these explicit instructions to summarize the content:
+                      1. Identify the main sections.
                       2. Extract key information from each section.
                       3. Combine the extracted information into a coherent summary.
 
+                      Context: \n{context}\n
+                      Question: \n{question}\n
+
                       Summary:
                       """
+
+# Professional PDF Analyst Perspective
 prompt_template_32 = """
-                      Respond as if you are a professional PDF analyst with expertise in summarizing complex documents. 
-                      Adopt their style and perspective to summarize the provided PDF content.
+                      Respond as if you are a professional analyst with expertise in summarizing complex documents. 
+                      Adopt their style and perspective to summarize the provided content.
 
-                      Response:
-                      """
-
-prompt_template_33 = """
-                      Use the context provided from the PDF to generate a detailed summary. 
-                      Ensure that the summary reflects the key themes and information presented in the document.
+                      Context: \n{context}\n
+                      Question: \n{question}\n
 
                       Summary:
                       """
+
+# Detailed Summary
+prompt_template_33 = """
+                      Use the context provided to generate a detailed summary. 
+                      Ensure that the summary reflects the key themes and information presented.
+
+                      Context: \n{context}\n
+                      Question: \n{question}\n
+
+                      Summary:
+                      """
+
+# Researcher Perspective
 prompt_template_34 = """
-                      Assume the role of a researcher who needs to prepare a summary of the provided PDF document. 
+                      Assume the role of a researcher who needs to prepare a summary of the provided content. 
                       Address the key findings and implications based on this role.
 
+                      Context: \n{context}\n
+                      Question: \n{question}\n
+
                       Summary:
                       """
 
+# Comparison
 prompt_template_35 = """
-                      Compare the following aspects of the PDF content:
+                      Compare the following aspects of the content:
                       1. The primary arguments presented.
                       2. The evidence supporting these arguments.
 
+                      Context: \n{context}\n
+                      Question: \n{question}\n
+
                       Comparison:
                       """
+
+# Iterative Analysis
 prompt_template_36 = """
-                      Engage in multiple rounds of analysis to summarize the PDF content. 
+                      Engage in multiple rounds of analysis to summarize the content. 
                       In each turn, refine the summary based on feedback and additional insights.
+
+                      Context: \n{context}\n
+                      Question: \n{question}\n
 
                       Turn 1 Summary:
                       """
+
+# Refined Summary
 prompt_template_37 = """
-                      Refine the initial summary of the PDF document based on detailed feedback. 
+                      Refine the initial summary based on detailed feedback. 
                       Iterate to improve the clarity and accuracy of the summary.
+
+                      Context: \n{context}\n
+                      Question: \n{question}\n
 
                       Refined Summary:
                       """
