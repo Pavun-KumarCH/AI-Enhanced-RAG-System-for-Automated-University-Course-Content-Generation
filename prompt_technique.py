@@ -387,6 +387,6 @@ prompt_template_37 = """
                       Context: \n{context}\n
                       Question: \n{question}\n
 
-                      Refined Summary:
+                      Refined Summary: 
                       """
 
